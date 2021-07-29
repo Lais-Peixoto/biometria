@@ -1,0 +1,33 @@
+.container {
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+
+  width: 200px;
+  height: 200px;
+  margin: 10rem auto;
+  padding: 3rem;
+
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container form input {
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  padding: 0.25rem;
+
+  border: 1px solid #888;
+}
+
+.container form button {
+  border-radius: 5px;
+  background-color: rgb(10, 149, 230);
+  border: none;
+  padding: 0.5rem;
+
+  color: #fff;
+}
